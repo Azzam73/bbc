@@ -1,0 +1,398 @@
+body{
+    background-color: #9E9E9E;
+}
+/*smaal screen  */
+@media (min-width:768px)  {
+    .container{
+        width: 750px;
+    }
+    
+}
+/* medium screen */
+@media (min-width:992px)  {
+    .container{
+        width: 970px;
+    }
+    
+}
+/* large screen */
+@media (min-width:1200px)  {
+    .container{
+        width: 1170px;
+    }   
+}
+/* end globle rules */
+/* stat header  */
+.header{
+    background-color:black;
+    width: 100%;
+    padding: 20px;
+    z-index: 1000; 
+    position: absolute;
+    padding-top: 0;
+}
+.container{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    min-height: 94px;
+}
+@media (max-width:768px) {
+    .header .container{
+        flex-direction: column;
+    }
+}
+
+.header .logo{
+    margin: 0px;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .container #logo-{
+    font-size: 65px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: lightgray;
+}
+@media (max-width:991px) {
+    .header .container #logo-{
+        font-size: 50px;
+    }
+}
+@media (max-width:768px) {
+    .header .container #logo-{
+        font-size: 30px;
+    }
+}
+.header .container  .icon {
+    font-weight:bold;
+    color: black;
+    margin-right: 2px;
+    line-height: 2.01;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.header .container  .icon span{
+    border: 3px solid black;
+    background-color: #f6f6f6;
+    display: inline-block;
+    padding: 5px;
+
+}
+@media (min-width:768px) {
+    .header .container  .icon{
+        font-size: 15px;
+    }
+}
+@media (min-width:991px) {
+    .header .container  .icon{
+        font-size: 20px;
+    }
+}
+@media (max-width:768px) {
+    .header .container .icon{
+        font-size: 10px;
+    }
+}
+.header .container  #user{
+    font-size: 40px;
+    margin-left: 30px;
+    margin-right: 1px;
+    color:white;
+}
+@media (max-width:991px) {
+    .header .container  #user{
+        font-size: 25px;
+    }
+}
+.header .container .logo a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color:white;
+    text-align: center;
+    transition: all 0.3s linear;
+}
+.header .logo .sign:hover a{
+    text-decoration: underline;
+    color:#ff6600;
+}
+ul{
+    list-style:none;
+    margin: 0px;
+    padding: 0px;
+}
+.header .links{
+display: flex;
+flex: 1;
+justify-content: center;
+align-items: center;
+
+}
+
+.header .links ul{
+    display: flex;
+}
+.header .links ul li a{
+    padding:30px 30px;
+    font-size: 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s linear;
+    position: relative;
+    z-index: 2;
+}
+
+@media (max-width:991px) {
+    .header .links ul li a{
+        font-size: 17px;
+        padding:17px;
+    }
+}
+@media (max-width:768px) {
+    .header .links ul li a{
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+.header .links ul li:hover a{
+    text-decoration: underline;
+    color:#ff6600;
+}
+@media (min-width:768px) {
+    .header .links ul li:hover a{
+        font-size:21px;
+    }
+}
+/* end header  */
+
+/* start sections-sports */
+.section1 {
+    display: flex;
+}
+.section1 .container1{
+    display: flex;
+    margin-top:100px ;
+}
+
+.section1{
+background-color:white;
+position: relative;
+padding:5px;
+margin: 5px;
+border: 1px solid #ddd
+}
+.section1 .container1{
+    width:100%;
+    display: flex;
+}
+.section1 .container1 .new11{
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f6f6f6;
+}
+@media (max-width:800px) {
+    .section1 .container1{
+        flex-direction: column;
+    }
+    .section1 .container1 .new11{
+        width: 80%;
+    }
+}
+.section1 .container1 .new11 h1{
+    color: #df2829;
+    text-align: center;
+    font-weight: bold;
+}
+.section1 .container1 .new11 img{
+    width: 100%;
+    margin: 0px;
+}
+.section1 .container1 .new11 p{
+    color: #333;
+    font-family: Arial,Helvetica,sans-serif ;
+    font-size: 16px ;
+    font-weight: 700 ;
+    line-height: 28px ;
+    text-align: justify; 
+}
+.section {
+    display: flex;
+}
+.section .container{
+    display: flex;
+    margin-top:10px ;
+}
+.section{
+background-color:white;
+position: relative;
+padding:5px;
+margin: 5px;
+border: 1px solid #ddd
+}
+.section .container{
+    width:100%;
+    display: flex;
+}
+.section .container .new1{
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f6f6f6;
+}
+.section .container .new1 h1{
+    color: #df2829;
+    text-align: center;
+    font-weight: bold;
+}
+.section .container .new1 img{
+    width: 100%;
+    margin: 0px;
+}
+.section .container .new1 p{
+    color: #333;
+    font-family: Arial,Helvetica,sans-serif ;
+    font-size: 16px ;
+    font-weight: 700 ;
+    line-height: 28px ;
+    text-align: justify; 
+}
+@media (max-width:800px) {
+    .section .container{
+        flex-direction: column;
+    }
+    .section .container .new1{
+        width: 80%;
+    }
+}
+/* end sections-sports */
+/*start contact us  */
+  /* Style for the line  contact us دا الجزء بتاع الخط اللي جنب  */
+
+.icons-contact{
+    background-color: #f6f6f6;
+    text-align: center;
+}
+.word-container {
+    position: relative;
+}
+
+    /* Style for the word */
+.word {
+    display: inline-block;
+    position: relative;
+    z-index: 1; /* Set a higher z-index to place the word above the line */
+    margin-left:20px;
+    font-size: 23px;
+    font-weight: 900;
+}
+@media (max-width:991px) {
+    .icons-contact .word{
+        font-size: 20px;
+    }
+}
+
+    /* Style for the line */
+.line {
+    position: absolute;
+    bottom: 50%;
+    width: 80%;
+    border-bottom: 2px solid #000;
+    z-index: 0;
+    left:10%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.icons-contact .social{
+    display: inline;
+    font-size: 35px;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-left: 15px;
+}
+@media (max-width:991px) {
+    .icons-contact .social{
+        font-size: 20px;
+    }
+}
+#lin {
+    color: rgb(30, 48, 80);
+    padding: 5px;
+}
+#fac {
+    color: rgb(61, 90, 152);
+    padding: 5px;
+}
+#ins {
+    color: rgb(217, 49, 117);
+    padding: 5px;
+}
+#lin:hover{
+    background-color:rgb(30, 48, 80);
+    color: white;
+}
+#fac:hover{
+    background-color:rgb(61, 90, 152);
+    color: white;
+}
+#ins:hover{
+    background-color:rgb(217, 49, 117) ;
+    color: white;
+}
+/*  end contact us  */
+/* start footer*/
+.footer{
+    background-color: #4c4c4c;
+    width: 100%;
+    padding: 15px;
+    min-height: 120px;
+}
+.header .footer-links{
+display: flex;
+flex: 1;
+justify-content: center;
+align-items: center;
+
+}
+.footer .footer-links ul{
+    display: flex;
+}
+.footer .footer-links ul li a{
+    padding:15px;
+    display: block;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+.footer .footer-links ul li a:hover{
+    text-decoration: underline;
+    color:#ff6600;
+    font-size:21px;
+}
+.footer .container .copyright{
+    color: white;
+}
+@media (max-width:768px) {
+    .footer .container .copyright{
+        font-size: 15px;
+    }
+}
+/* end footer*/
